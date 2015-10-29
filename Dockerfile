@@ -1,4 +1,3 @@
-
 FROM rauliu/ubuntu-base
 MAINTAINER Raul Liu "https://github.com/rauliu"
 
