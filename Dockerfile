@@ -30,6 +30,7 @@ RUN sed -i 's/;sendmail_path\s=.*/sendmail_path = \/usr\/bin\/msmtp -t/' /etc/ph
 
 ADD phpinfo.php /var/www/html/
 
+ADD apache.conf /etc/supervisor/conf.d/
 
 ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
